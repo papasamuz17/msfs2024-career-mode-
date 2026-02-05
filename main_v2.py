@@ -4427,25 +4427,27 @@ class MissionGeneratorV2(ctk.CTk):
                         wear_pct = "0%"
                         if hasattr(self, 'maintenance') and self.aircraft_info.get('title'):
                             aircraft_id = self.aircraft_info.get('title', 'Unknown')[:20]
-                            aircraft_status = self.maintenance.get_aircraft(aircraft_id)
-                            if aircraft_status:
-                                wear_pct = f"{aircraft_status.wear_percent:.0f}%"
+                            category = self.aircraft_info.get('category', 'light_piston')
+                            # Use get_or_create to ensure aircraft is tracked
+                            aircraft_status = self.maintenance.get_or_create_aircraft(
+                                aircraft_id,
+                                self.aircraft_info.get('title', 'Unknown'),
+                                category
+                            )
+                            wear_pct = f"{aircraft_status.wear_percent:.0f}%"
 
-                        # Get passengers comfort - show count and comfort score
-                        pax = "N/A"
-                        # First get passenger count from SimConnect payload
+                        # Get passengers - always show count from SimConnect
                         pax_count = getattr(self, '_estimated_passengers', 0)
+                        pax = f"{pax_count} pax" if pax_count >= 0 else "0 pax"
+
+                        # Add comfort score if passengers system is active with a mission
                         if hasattr(self, 'passengers') and self.passengers.current:
                             comfort = self.passengers.current
-                            # Update passenger count if we have data from SimConnect
-                            if pax_count > 0 and comfort.passenger_count == 0:
+                            # Sync passenger count from SimConnect
+                            if pax_count > 0:
                                 comfort.passenger_count = pax_count
-                            if comfort.passenger_count > 0:
+                            if comfort.passenger_count > 0 and comfort.current_score > 0:
                                 pax = f"{comfort.passenger_count} pax ({comfort.current_score:.0f}%)"
-                            else:
-                                pax = f"{pax_count} pax" if pax_count > 0 else "0 pax"
-                        elif pax_count > 0:
-                            pax = f"{pax_count} pax"
 
                         self.systems_text.configure(
                             text=f"Fuel: {fuel_pct} | Wear: {wear_pct} | Passengers: {pax}"
