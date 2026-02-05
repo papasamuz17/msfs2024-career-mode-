@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+*.cache
+openaip_cache.json
+
+# Config with sensitive data (user should create their own)
+# config.json  # Uncomment if you don't want to track config
+
+# Save files
+savegame.json
+
+# Temporary files
+*.tmp
+*.bak
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Phase calibration files
+phase_calibration_*.json
+
+# Claude/AI files
+.claude/

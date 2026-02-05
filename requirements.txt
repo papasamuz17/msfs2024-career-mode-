@@ -1,0 +1,28 @@
+# GUI
+customtkinter>=5.2.0
+
+# SimConnect
+SimConnect>=0.5.2
+
+# Audio
+pygame>=2.5.0
+edge-tts>=6.1.0
+
+# AI/LLM
+groq>=0.4.0
+
+# HTTP
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Speech Recognition (optional, for Whisper)
+# whisper>=1.0.0
+
+# Performance monitoring (optional)
+# psutil>=5.9.0
+
+# Data
+numpy>=1.24.0
+
+# Image processing (for potential future features)
+Pillow>=10.0.0
