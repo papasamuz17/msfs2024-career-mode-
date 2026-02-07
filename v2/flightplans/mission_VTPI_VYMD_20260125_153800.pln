@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>VTPI to VYMD</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>24000.000</CruisingAlt>
+        <DepartureID>VTPI</DepartureID>
+        <DepartureLLA>N15.277300,E100.295998,+000000.00</DepartureLLA>
+        <DestinationID>VYMD</DestinationID>
+        <DestinationLLA>N21.702200,E95.977898,+000000.00</DestinationLLA>
+        <Descr>Takhli Royal Thai Air Force Base to Mandalay International Airport</Descr>
+        <DepartureName>Takhli Royal Thai Air Force Base</DepartureName>
+        <DestinationName>Mandalay International Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="VTPI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N15.277300,E100.295998,+000000.00</WorldPosition>
+            <RunwayNumberFP>18</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>VTPI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N21.866221,E95.946734,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N21.784211,E95.962325,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="VYMD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N21.702200,E95.977898,+000000.00</WorldPosition>
+            <RunwayNumberFP>17</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>VYMD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

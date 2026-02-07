@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>MUCC to MKTP</Title>
+        <FPType>IFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>12000.000</CruisingAlt>
+        <DepartureID>MUCC</DepartureID>
+        <DepartureLLA>N22.461000,W78.328400,+000000.00</DepartureLLA>
+        <DestinationID>MKTP</DestinationID>
+        <DestinationLLA>N17.988600,W76.823799,+000000.00</DestinationLLA>
+        <Descr>Jardines Del Rey Airport to Tinson Pen Airport</Descr>
+        <DepartureName>Jardines Del Rey Airport</DepartureName>
+        <DestinationName>Tinson Pen Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>12</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <DepartureDetails>
+            <RunwayNumberFP>8</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+        </DepartureDetails>
+        <ArrivalDetails>
+            <RunwayNumberFP>14</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+        </ArrivalDetails>
+        <ApproachDetails>
+            <ApproachTypeFP>RNAV</ApproachTypeFP>
+            <RunwayNumberFP>14</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+        </ApproachDetails>
+        <ATCWaypoint id="MUCC">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <ICAO>
+                <ICAOIdent>MUCC</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N18.116155,W76.936442,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N18.052386,W76.880100,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

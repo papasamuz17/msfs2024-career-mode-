@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>UUOT to UUBW</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>18000.000</CruisingAlt>
+        <DepartureID>UUOT</DepartureID>
+        <DepartureLLA>N52.806099,E41.482800,+000000.00</DepartureLLA>
+        <DestinationID>UUBW</DestinationID>
+        <DestinationLLA>N55.553299,E38.150002,+000000.00</DestinationLLA>
+        <Descr>Donskoye Airport to Zhukovsky International Airport</Descr>
+        <DepartureName>Donskoye Airport</DepartureName>
+        <DestinationName>Zhukovsky International Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="UUOT">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N52.806099,E41.482800,+000000.00</WorldPosition>
+            <RunwayNumberFP>14</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>UUOT</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="UUOT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N52.806100,E41.482800,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TULSA">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N53.533300,E40.783300,+10000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="KINAR">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N54.616700,E39.633300,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="RUSAK">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N55.233300,E38.616700,+10000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="UUBW">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N55.553300,E38.150000,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="UUBW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N55.553299,E38.150002,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>UUBW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

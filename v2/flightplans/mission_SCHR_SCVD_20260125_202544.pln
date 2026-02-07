@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SCHR to SCVD</Title>
+        <FPType>IFR</FPType>
+        <RouteType>LowAlt</RouteType>
+        <CruisingAlt>24000.000</CruisingAlt>
+        <DepartureID>SCHR</DepartureID>
+        <DepartureLLA>S47.243591,W72.588150,+000000.00</DepartureLLA>
+        <DestinationID>SCVD</DestinationID>
+        <DestinationLLA>S39.650002,W73.086098,+000000.00</DestinationLLA>
+        <Descr>Cochrane Airport to Pichoy Airport</Descr>
+        <DepartureName>Cochrane Airport</DepartureName>
+        <DestinationName>Pichoy Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>12</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <DepartureDetails>
+            <RunwayNumberFP>7</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+        </DepartureDetails>
+        <ArrivalDetails>
+            <RunwayNumberFP>35</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+        </ArrivalDetails>
+        <ApproachDetails>
+            <ApproachTypeFP>RNAV</ApproachTypeFP>
+            <RunwayNumberFP>35</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+        </ApproachDetails>
+        <ATCWaypoint id="SCHR">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <ICAO>
+                <ICAOIdent>SCHR</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S39.814019,W73.048445,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S39.732012,W73.067294,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

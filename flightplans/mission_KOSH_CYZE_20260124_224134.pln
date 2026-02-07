@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>KOSH to CYZE</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>18000.000</CruisingAlt>
+        <DepartureID>KOSH</DepartureID>
+        <DepartureLLA>N43.984402,W88.556999,+000000.00</DepartureLLA>
+        <DestinationID>CYZE</DestinationID>
+        <DestinationLLA>N45.885300,W82.567802,+000000.00</DestinationLLA>
+        <Descr>Wittman Regional Airport to Gore Bay Manitoulin Airport</Descr>
+        <DepartureName>Wittman Regional Airport</DepartureName>
+        <DestinationName>Gore Bay Manitoulin Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="KOSH">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43.984402,W88.556999,+000000.00</WorldPosition>
+            <RunwayNumberFP>18</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>KOSH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="KOSH">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43.984400,W88.557000,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="MSN">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43.133300,W89.333300,+8000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="PLB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44.683300,W87.066700,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="YZE">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45.885300,W82.567800,+4000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYZE">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45.885300,W82.567800,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYZE">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N45.885300,W82.567802,+000000.00</WorldPosition>
+            <RunwayNumberFP>11</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>CYZE</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

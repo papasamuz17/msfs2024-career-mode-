@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>ZGSY to ZUZH</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>24000.000</CruisingAlt>
+        <DepartureID>ZGSY</DepartureID>
+        <DepartureLLA>N26.806123,E110.641042,+000000.00</DepartureLLA>
+        <DestinationID>ZUZH</DestinationID>
+        <DestinationLLA>N26.540000,E101.798520,+000000.00</DestinationLLA>
+        <Descr>Shaoyang Wugang Airport to Panzhihua Bao'anying Airport</Descr>
+        <DepartureName>Shaoyang Wugang Airport</DepartureName>
+        <DestinationName>Panzhihua Bao'anying Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="ZGSY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N26.806123,E110.641042,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>ZGSY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="ZGSY">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26.806100,E110.641000,+5000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="VOR1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N27.234500,E108.456700,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="INT1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26.987600,E106.234500,+24000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="INT2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26.654300,E103.456700,+24000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="VOR2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26.432100,E102.123400,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="ZUZH">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26.540000,E101.798500,+5000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="ZUZH">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N26.540000,E101.798520,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>ZUZH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>PTSA to PKWA</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>18000.000</CruisingAlt>
+        <DepartureID>PTSA</DepartureID>
+        <DepartureLLA>N5.356980,E162.957993,+000000.00</DepartureLLA>
+        <DestinationID>PKWA</DestinationID>
+        <DestinationLLA>N8.720120,E167.731995,+000000.00</DestinationLLA>
+        <Descr>Kosrae International Airport to Bucholz Army Air Field</Descr>
+        <DepartureName>Kosrae International Airport</DepartureName>
+        <DestinationName>Bucholz Army Air Field</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="PTSA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N5.356980,E162.957993,+000000.00</WorldPosition>
+            <RunwayNumberFP>5</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>PTSA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT01">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N6.403873,E163.887270,+10800.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT02">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N7.330148,E165.499756,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT03">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N7.899737,E166.317033,+9000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="PKWA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N8.720120,E167.731995,+000000.00</WorldPosition>
+            <RunwayNumberFP>6</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>PKWA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

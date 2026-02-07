@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>SBCY to SBAN</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>24000.000</CruisingAlt>
+        <DepartureID>SBCY</DepartureID>
+        <DepartureLLA>S15.652900,W56.116699,+000000.00</DepartureLLA>
+        <DestinationID>SBAN</DestinationID>
+        <DestinationLLA>S16.229200,W48.964298,+000000.00</DestinationLLA>
+        <Descr>Marechal Rondon Airport to Anápolis Airbase</Descr>
+        <DepartureName>Marechal Rondon Airport</DepartureName>
+        <DestinationName>Anápolis Airbase</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="SBCY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S15.652900,W56.116699,+000000.00</WorldPosition>
+            <RunwayNumberFP>35</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>SBCY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S16.393222,W48.994445,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S16.311211,W48.979365,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="SBAN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S16.229200,W48.964298,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>SBAN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

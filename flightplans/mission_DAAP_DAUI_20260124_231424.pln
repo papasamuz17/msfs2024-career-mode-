@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>DAAP to DAUI</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>18000.000</CruisingAlt>
+        <DepartureID>DAAP</DepartureID>
+        <DepartureLLA>N26.723499,E8.622650,+000000.00</DepartureLLA>
+        <DestinationID>DAUI</DestinationID>
+        <DestinationLLA>N27.250999,E2.512020,+000000.00</DestinationLLA>
+        <Descr>Illizi Takhamalt Airport to In Salah Airport</Descr>
+        <DepartureName>Illizi Takhamalt Airport</DepartureName>
+        <DestinationName>In Salah Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="DAAP">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N26.723499,E8.622650,+000000.00</WorldPosition>
+            <RunwayNumberFP>27</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>DAAP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="DAAP">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26.723500,E8.622700,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="TIBRI">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N26.933300,E6.783300,+10000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="ELMAK">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N27.216700,E4.783300,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="GARFA">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N27.183300,E3.283300,+12000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="DAUI">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N27.251000,E2.512000,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="DAUI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N27.250999,E2.512020,+000000.00</WorldPosition>
+            <RunwayNumberFP>5</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>DAUI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

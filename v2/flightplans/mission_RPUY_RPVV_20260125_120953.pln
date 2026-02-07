@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>RPUY to RPVV</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>18000.000</CruisingAlt>
+        <DepartureID>RPUY</DepartureID>
+        <DepartureLLA>N16.929899,E121.752998,+000000.00</DepartureLLA>
+        <DestinationID>RPVV</DestinationID>
+        <DestinationLLA>N12.121865,E120.100801,+000000.00</DestinationLLA>
+        <Descr>Cauayan Airport to Francisco B. Reyes (Busuanga) Airport</Descr>
+        <DepartureName>Cauayan Airport</DepartureName>
+        <DestinationName>Francisco B. Reyes (Busuanga) Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="RPUY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N16.929899,E121.752998,+000000.00</WorldPosition>
+            <RunwayNumberFP>12</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>RPUY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N12.092893,E119.933055,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N12.107391,E120.016923,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="RPVV">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N12.121865,E120.100801,+000000.00</WorldPosition>
+            <RunwayNumberFP>8</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>RPVV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

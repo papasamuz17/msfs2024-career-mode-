@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>PABV to PADQ</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>18000.000</CruisingAlt>
+        <DepartureID>PABV</DepartureID>
+        <DepartureLLA>N61.416500,W149.507004,+000000.00</DepartureLLA>
+        <DestinationID>PADQ</DestinationID>
+        <DestinationLLA>N57.750000,W152.494003,+000000.00</DestinationLLA>
+        <Descr>Birchwood Airport to Kodiak Airport</Descr>
+        <DepartureName>Birchwood Airport</DepartureName>
+        <DestinationName>Kodiak Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="PABV">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N61.416500,W149.507004,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <RunwayDesignatorFP>LEFT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>PABV</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT01">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N60.258128,W150.479728,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT02">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N58.971803,W151.441266,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N57.583446,W152.494003,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N57.666723,W152.494003,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="PADQ">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N57.750000,W152.494003,+000000.00</WorldPosition>
+            <RunwayNumberFP>36</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>PADQ</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

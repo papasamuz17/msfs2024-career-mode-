@@ -1,0 +1,31 @@
+"Comporte-toi comme un Expert Python et Modding MSFS. Je veux créer une application externe 'Mission Generator' pour Microsoft Flight Simulator utilisant SimConnect et l'interface graphique CustomTkinter (pour un look moderne Dark Mode).
+
+Voici le fonctionnement exact de l'application :
+
+Fichier de données : Le script doit lire un fichier airports.json (contenant code OACI, nom, lat, lon) pour choisir les destinations.
+
+ca serais top si l'ia pouvais generer les fichiers de maniere assez aleatoire pour surprendre le joueur
+
+L'Interface (GUI) :
+
+Une grande étiquette en haut : 'SCORE: 1000 XP'.
+
+Un bouton 'GÉNÉRER MISSION'.
+
+Une zone de texte qui affiche la mission : 'Vol de [Départ] vers [Arrivée] ([Distance] nm)'.
+
+Une zone 'CONTRAINTE' en rouge (ex: 'Max Bank Angle: 30°').
+
+La Logique de Jeu (Boucle principale) :
+
+Le script se connecte au simu et récupère ma position, l'altitude, le 'Bank Angle' (inclinaison) et la 'Vertical Speed' en temps réel.
+
+Système de Malus : Si l'avion dépasse 30° d'inclinaison, retire 10 points par seconde et change la couleur du score en rouge.
+
+Système d'Atterrissage : Détecte quand l'avion touche le sol (SimOnGround devient True). Si la Vertical Speed est > -200 fpm (atterrissage doux), ajoute +500 XP. Si < -500 fpm (crash), retire 1000 XP.
+
+Audio : Prévois des placeholders playsound pour jouer un son quand on perd des points ou quand on réussit.
+
+Écris-moi tout le code dans un seul fichier main.py et donne-moi la structure du fichier airports.json. installe les librairies neccesaires au fonctionnement
+
+pose moi des questions si besoin,tu peux generer les questions dans un fichier question.md qu'on completera au fur et a mesure du projet

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>MMSP to MMMM</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>12000.000</CruisingAlt>
+        <DepartureID>MMSP</DepartureID>
+        <DepartureLLA>N22.260857,W100.934940,+000000.00</DepartureLLA>
+        <DestinationID>MMMM</DestinationID>
+        <DestinationLLA>N19.849899,W101.025002,+000000.00</DestinationLLA>
+        <Descr>Ponciano Arriaga International Airport to General Francisco J. Mujica International Airport</Descr>
+        <DepartureName>Ponciano Arriaga International Airport</DepartureName>
+        <DestinationName>General Francisco J. Mujica International Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>12</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <DepartureDetails>
+            <RunwayNumberFP>22</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+        </DepartureDetails>
+        <ArrivalDetails>
+            <RunwayNumberFP>5</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+        </ArrivalDetails>
+        <ATCWaypoint id="MMSP">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N22.260857,W100.934940,+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>MMSP</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N19.742789,W101.160558,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N19.796357,W101.092803,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="MMMM">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N19.849899,W101.025002,+000000.00</WorldPosition>
+            <ICAO>
+                <ICAOIdent>MMMM</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

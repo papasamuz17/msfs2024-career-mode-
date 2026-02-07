@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>GVMA to GOGG</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>24000.000</CruisingAlt>
+        <DepartureID>GVMA</DepartureID>
+        <DepartureLLA>N15.155900,W23.213699,+000000.00</DepartureLLA>
+        <DestinationID>GOGG</DestinationID>
+        <DestinationLLA>N12.555590,W16.283298,+000000.00</DestinationLLA>
+        <Descr>Maio Airport to Ziguinchor Airport</Descr>
+        <DepartureName>Maio Airport</DepartureName>
+        <DestinationName>Ziguinchor Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="GVMA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N15.155900,W23.213699,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>GVMA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="GVMA">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N15.155900,W23.213700,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="DGO">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N16.466700,W22.783300,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="KODJ">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N14.733300,W17.233300,+24000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="GOGV">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N12.866700,W16.466700,+12000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="GOGG">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N12.555600,W16.283300,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="GOGG">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N12.555590,W16.283298,+000000.00</WorldPosition>
+            <RunwayNumberFP>10</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>GOGG</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

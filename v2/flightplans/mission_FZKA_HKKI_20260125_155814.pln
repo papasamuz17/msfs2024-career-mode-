@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>FZKA to HKKI</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>18000.000</CruisingAlt>
+        <DepartureID>FZKA</DepartureID>
+        <DepartureLLA>N1.565743,E30.220685,+000000.00</DepartureLLA>
+        <DestinationID>HKKI</DestinationID>
+        <DestinationLLA>S0.086139,E34.728901,+000000.00</DestinationLLA>
+        <Descr>Bunia Airport to Kisumu International Airport</Descr>
+        <DepartureName>Bunia Airport</DepartureName>
+        <DestinationName>Kisumu International Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="FZKA">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N1.565743,E30.220685,+000000.00</WorldPosition>
+            <RunwayNumberFP>10</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>FZKA</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT01">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N1.051650,E31.652038,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT02">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N0.457215,E33.317252,+18000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S0.002862,E34.873141,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S0.044500,E34.801021,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="HKKI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S0.086139,E34.728901,+000000.00</WorldPosition>
+            <RunwayNumberFP>24</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>HKKI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

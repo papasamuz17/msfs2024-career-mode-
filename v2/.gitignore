@@ -40,7 +40,6 @@ savegame.json
 *.tmp
 *.bak
 *.temp
-nul
 
 # OS files
 .DS_Store
@@ -52,32 +51,3 @@ phase_calibration_*.json
 
 # Claude/AI files
 .claude/
-
-# Git backup
-.git_backup/
-
-# Images & Videos
-*.jpeg
-*.jpg
-*.png
-*.gif
-*.mp4
-*.avi
-*.mov
-*.webm
-download image/
-
-# Audio/Sounds
-sounds/
-voice_samples/
-*.wav
-*.mp3
-*.ogg
-
-# PDF
-*.pdf
-
-# Presentation/video project files
-prez_video/
-prez_video_v2/
-prez_video_v2_remotion/

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LFMN to LFBO</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>5000.000</CruisingAlt>
+        <DepartureID>LFMN</DepartureID>
+        <DepartureLLA>N43.658400,E7.215900,+000000.00</DepartureLLA>
+        <DestinationID>LFBO</DestinationID>
+        <DestinationLLA>N43.629100,E1.367800,+000000.00</DestinationLLA>
+        <Descr>Nice Cote d'Azur to Toulouse Blagnac</Descr>
+        <DepartureName>Nice Cote d'Azur</DepartureName>
+        <DestinationName>Toulouse Blagnac</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LFMN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43.658400,E7.215900,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LFMN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WYPT1">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43.700000,E3.100000,+005000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WYPT2">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44.200000,E4.800000,+005000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WYPT3">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45.100000,E6.200000,+005000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WYPT4">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N45.500000,E7.500000,+005000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WYPT5">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N44.200000,E1.200000,+005000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="ARRIVAL">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N43.629100,E1.367800,+005000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="LFBO">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N43.629100,E1.367800,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LFBO</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

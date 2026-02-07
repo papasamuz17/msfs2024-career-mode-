@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>UHKD to UHHH</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>12000.000</CruisingAlt>
+        <DepartureID>UHKD</DepartureID>
+        <DepartureLLA>N50.605598,E137.080994,+000000.00</DepartureLLA>
+        <DestinationID>UHHH</DestinationID>
+        <DestinationLLA>N48.528338,E135.188588,+000000.00</DestinationLLA>
+        <Descr>Dzemgi Airport to Khabarovsk Novy Airport</Descr>
+        <DepartureName>Dzemgi Airport</DepartureName>
+        <DestinationName>Khabarovsk Novy Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="UHKD">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N50.605598,E137.080994,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>UHKD</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="CLMB">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50.638402,E137.090115,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="DEPT">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N50.673790,E137.005622,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48.635236,E135.381655,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N48.581827,E135.285019,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="UHHH">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N48.528338,E135.188588,+000000.00</WorldPosition>
+            <RunwayNumberFP>23</RunwayNumberFP>
+            <RunwayDesignatorFP>RIGHT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>UHHH</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

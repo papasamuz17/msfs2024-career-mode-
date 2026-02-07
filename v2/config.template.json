@@ -1,0 +1,21 @@
+{
+  "pln_destination_folder": "",
+  "groq_api_key": "",
+  "openaip_api_key": "",
+  "auto_copy_pln": true,
+  "copilot_enabled": true,
+  "voice_enabled": true,
+  "voice_language": "fr-FR",
+  "career_mode": true,
+  "performance_mode": "balanced",
+  "fuel_management": true,
+  "maintenance_enabled": true,
+  "passenger_comfort": true,
+  "relaxed_mode": false,
+  "ptt_enabled": false,
+  "ptt_joystick_id": 0,
+  "ptt_button_id": 0,
+  "mission_distance_min": 50,
+  "mission_distance_max": 500,
+  "preferred_microphone": ""
+}

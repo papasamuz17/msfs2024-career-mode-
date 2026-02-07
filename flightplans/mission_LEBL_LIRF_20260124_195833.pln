@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LEBL to LIRF</Title>
+        <FPType>VFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>5000.000</CruisingAlt>
+        <DepartureID>LEBL</DepartureID>
+        <DepartureLLA>N41.297100,E2.078500,+000000.00</DepartureLLA>
+        <DestinationID>LIRF</DestinationID>
+        <DestinationLLA>N41.800300,E12.238900,+000000.00</DestinationLLA>
+        <Descr>Barcelona El Prat to Rome Fiumicino</Descr>
+        <DepartureName>Barcelona El Prat</DepartureName>
+        <DestinationName>Rome Fiumicino</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LEBL">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N41.297100,E2.078500,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LEBL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="LIRF">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N41.800300,E12.238900,+000000.00</WorldPosition>
+            <RunwayNumberFP>1</RunwayNumberFP>
+            <ICAO>
+                <ICAOIdent>LIRF</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

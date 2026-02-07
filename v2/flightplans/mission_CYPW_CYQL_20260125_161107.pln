@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>CYPW to CYQL</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>24000.000</CruisingAlt>
+        <DepartureID>CYPW</DepartureID>
+        <DepartureLLA>N49.834202,W124.500000,+000000.00</DepartureLLA>
+        <DestinationID>CYQL</DestinationID>
+        <DestinationLLA>N49.630299,W112.800003,+000000.00</DestinationLLA>
+        <Descr>Powell River Airport to Lethbridge County Airport</Descr>
+        <DepartureName>Powell River Airport</DepartureName>
+        <DestinationName>Lethbridge County Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="CYPW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N49.834202,W124.500000,+000000.00</WorldPosition>
+            <RunwayNumberFP>9</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>CYPW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT01">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49.866167,W122.245180,+14400.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT02">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49.758051,W119.882992,+24000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT03">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49.621602,W117.456724,+24000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="WPT04">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49.762301,W115.174433,+12000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49.737190,W112.997418,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49.683786,W112.898602,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="CYQL">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N49.630299,W112.800003,+000000.00</WorldPosition>
+            <RunwayNumberFP>13</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>CYQL</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

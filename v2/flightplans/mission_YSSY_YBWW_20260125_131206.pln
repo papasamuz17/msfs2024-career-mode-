@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>YSSY to YBWW</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>24000.000</CruisingAlt>
+        <DepartureID>YSSY</DepartureID>
+        <DepartureLLA>S33.946098,E151.177002,+000000.00</DepartureLLA>
+        <DestinationID>YBWW</DestinationID>
+        <DestinationLLA>S27.558332,E151.793335,+000000.00</DestinationLLA>
+        <Descr>Sydney Kingsford Smith International Airport to Toowoomba Wellcamp Airport</Descr>
+        <DepartureName>Sydney Kingsford Smith International Airport</DepartureName>
+        <DestinationName>Toowoomba Wellcamp Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="YSSY">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S33.946098,E151.177002,+000000.00</WorldPosition>
+            <RunwayNumberFP>16</RunwayNumberFP>
+            <RunwayDesignatorFP>LEFT</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>YSSY</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S27.641514,E151.956159,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>S27.599947,E151.874716,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="YBWW">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>S27.558332,E151.793335,+000000.00</WorldPosition>
+            <RunwayNumberFP>30</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>YBWW</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>

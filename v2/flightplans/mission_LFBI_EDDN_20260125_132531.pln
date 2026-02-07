@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimBase.Document Type="AceXML" version="1,0">
+    <Descr>AceXML Document</Descr>
+    <FlightPlan.FlightPlan>
+        <Title>LFBI to EDDN</Title>
+        <FPType>IFR</FPType>
+        <RouteType>Direct</RouteType>
+        <CruisingAlt>24000.000</CruisingAlt>
+        <DepartureID>LFBI</DepartureID>
+        <DepartureLLA>N46.587700,E0.306666,+000000.00</DepartureLLA>
+        <DestinationID>EDDN</DestinationID>
+        <DestinationLLA>N49.498699,E11.078056,+000000.00</DestinationLLA>
+        <Descr>Poitiers-Biard Airport to Nuremberg Airport</Descr>
+        <DepartureName>Poitiers-Biard Airport</DepartureName>
+        <DestinationName>Nuremberg Airport</DestinationName>
+        <AppVersion>
+            <AppVersionMajor>11</AppVersionMajor>
+            <AppVersionBuild>282174</AppVersionBuild>
+        </AppVersion>
+        <ATCWaypoint id="LFBI">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N46.587700,E0.306666,+000000.00</WorldPosition>
+            <RunwayNumberFP>21</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>LFBI</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+        <ATCWaypoint id="IAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49.527346,E10.825355,+3000.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="FAF">
+            <ATCWaypointType>User</ATCWaypointType>
+            <WorldPosition>N49.513091,E10.951743,+1500.00</WorldPosition>
+            <SpeedMaxFP>-1</SpeedMaxFP>
+        </ATCWaypoint>
+        <ATCWaypoint id="EDDN">
+            <ATCWaypointType>Airport</ATCWaypointType>
+            <WorldPosition>N49.498699,E11.078056,+000000.00</WorldPosition>
+            <RunwayNumberFP>10</RunwayNumberFP>
+            <RunwayDesignatorFP>NONE</RunwayDesignatorFP>
+            <ICAO>
+                <ICAOIdent>EDDN</ICAOIdent>
+            </ICAO>
+        </ATCWaypoint>
+    </FlightPlan.FlightPlan>
+</SimBase.Document>
