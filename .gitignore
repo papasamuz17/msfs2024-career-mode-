@@ -30,8 +30,8 @@ cache/
 *.cache
 openaip_cache.json
 
-# Config with sensitive data (user should create their own)
-# config.json  # Uncomment if you don't want to track config
+# Config with sensitive data (user should create their own from config.template.json)
+config.json
 
 # Save files
 savegame.json
@@ -49,6 +49,10 @@ desktop.ini
 
 # Phase calibration files
 phase_calibration_*.json
+
+# Generated flight plans and recordings
+flightplans/
+v2/flightplans/
 
 # Claude/AI files
 .claude/
@@ -81,3 +85,14 @@ voice_samples/
 prez_video/
 prez_video_v2/
 prez_video_v2_remotion/
+
+# Internal/dev files
+prompt
+Publication_code.md
+test_*.py
+generate_script_pdf.py
+script_videov2_msfs.md
+question.md
+calibrate_phases.py
+v2/calibrate_phases.py
+v2/POC_MAVTOMSFS24.md

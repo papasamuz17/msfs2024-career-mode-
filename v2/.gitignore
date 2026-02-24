@@ -30,8 +30,8 @@ cache/
 *.cache
 openaip_cache.json
 
-# Config with sensitive data (user should create their own)
-# config.json  # Uncomment if you don't want to track config
+# Config with sensitive data (user should create their own from config.template.json)
+config.json
 
 # Save files
 savegame.json
