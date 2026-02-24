@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+*.cache
+openaip_cache.json
+
+# Config with sensitive data (user should create their own from config.template.json)
+config.json
+
+# Save files
+savegame.json
+
+# Temporary files
+*.tmp
+*.bak
+*.temp
+nul
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Phase calibration files
+phase_calibration_*.json
+
+# Generated flight plans and recordings
+flightplans/
+v2/flightplans/
+
+# Claude/AI files
+.claude/
+
+# Git backup
+.git_backup/
+
+# Images & Videos
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+*.webm
+download image/
+
+# Audio/Sounds
+sounds/
+voice_samples/
+*.wav
+*.mp3
+*.ogg
+
+# PDF
+*.pdf
+
+# Presentation/video project files
+prez_video/
+prez_video_v2/
+prez_video_v2_remotion/
+
+# Internal/dev files
+prompt
+Publication_code.md
+test_*.py
+generate_script_pdf.py
+script_videov2_msfs.md
+question.md
+calibrate_phases.py
+v2/calibrate_phases.py
+v2/POC_MAVTOMSFS24.md
